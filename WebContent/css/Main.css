@@ -1,0 +1,385 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.green_window {
+	display: inline-block;
+	width: 220px;
+	height: 34px;
+	border: 3px solid #8080ff;
+	background: white;
+	margin-left: 50px;
+}
+
+.input_text {
+	width: 212px;
+	height: 40px;
+	margin: 0px 0 0 -10px;
+	border: 2;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+}
+
+.sch_smit {
+	width: 54px;
+	height: 40px;
+	margin: 0;
+	border: 0;
+	vertical-align: top;
+	background: #8080ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.sch_smit:hover {
+	background: #56C82C;
+}
+
+header {
+	font-size: 15px;
+	float: right;
+	position: fixed;
+}
+
+header .gnb {
+	width: 0%;
+	background-color: white;
+	text-align: right;
+}
+
+header .gnb ul {
+	overflow: hidden;
+	width: 2000px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 130px 0 1650px;
+	font-style: italic; /* 기울임 */
+	font-weight: bold; /* 굵기 : 굵게 */
+	padding: 10px;
+}
+
+header li {
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+	font-size: .9em;
+}
+
+header a {
+	color: #white;
+	text-decoration: none;
+}
+
+header .lnb {
+	overflow: hidden;
+	width: 100%;
+	padding: 5px;
+	text-align: center; /* 가운데 정렬 */
+	margin-left: 280px;
+}
+
+hr {
+	margin: 50px;
+	border-bottom: 2px solid #000000;
+}
+
+header .lnb ul {
+	width: 35%;
+	margin: 0 auto;
+	font-weight: bold; /* 굵기 : 굵게 */
+}
+
+header .lnb li {
+	margin: 5px;
+	line-height: 25px;
+}
+
+header .lnb a {
+	color: #282828;
+	font-size: 1.1em;
+	padding: 10px 30px;
+}
+
+header .bi h6 {
+	font-size: 60px;
+	padding-top: 30px; /* 여백 */
+	font-weight: bold; /* 굵기 : 굵게 */
+	text-align: center; /* 가운데 정렬 */
+}
+
+h3 {
+	font-size: 30px; /* 폰트 사이즈 : 30 */
+	font-style: italic; /* 기울임 */
+	padding-top: 30px; /* 여백 */
+	text-align: center; /* 가운데 정렬 */
+	color: blue; /* 폰트색상 : 블루 */
+	font-weight: bold; /* 굵기 : 굵게 */
+}
+
+#content2 {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+#content2 .section3 {
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #cccccc;
+	text-align: center;
+}
+
+#content2 .section3 div {
+	height: 400px;
+	float: left;
+	line-height: 400px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#content2 .slide_banner {
+	width: 650px;
+}
+
+#content {
+	width: 1900px;
+	margin: 0 auto;
+}
+
+#content .section1 {
+	overflow: hidden;
+	width: 1900px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #cccccc;
+}
+
+#content .section1 div {
+	height: 400px;
+	float: left;
+	line-height: 400px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+#content .slide_banner {
+	width: 2000px;
+}
+
+#content .section2 div {
+	margin-top: 10px;
+	width: 1900px;
+	height: 600px;
+	line-height: 400px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+#content .hit_product {
+	overflow: hidden;
+}
+
+#content .hit_product ul li {
+	list-style: none;
+	float: left;
+	margin: 0 7px 0 0;
+	width: 465px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+#content .hit_product ul li:first-child {
+	margin-left: 7px;
+}
+
+#content .hit_product1 {
+	overflow: hidden;
+}
+
+#content .hit_product1 ul li {
+	list-style: none;
+	float: left;
+	margin: 0 7px 0 0;
+	width: 465px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	outline: none;
+}
+
+#content .hit_product1 ul li:first-child {
+	margin-left: 7px;
+}
+
+#content .hit_product2 {
+	overflow: hidden;
+}
+
+#host {
+	margin: 80px 0 0 500px;
+	width: 1500px;
+	height: 50px;
+	background: #ffffff;
+	border: 0px solid #ffffff;
+}
+
+#content .hit_product2 ul li {
+	list-style: none;
+	float: left;
+	margin: 0 7px 0 0;
+	width: 465px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+#content .hit_product2 ul li:first-child {
+	margin-left: 7px;
+}
+
+.oo {
+	width: 1900px;
+	height: 500px;
+}
+
+.sidebar ul {
+	list-style: none;
+	color: #ffffff;
+	font-size: 15px;
+	position: fixed;
+	top: 0;
+	left: 50px;
+	width: 221px;
+	padding: 10px 54px;
+	z-index: 100;
+	background-color: #caffff;
+	font-weight: bold;
+	color: #000000;
+}
+
+#qn {
+	font-size: 20px;
+}
+
+.sidebar ul {
+	list-style: none;
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+
+#slide {
+	height: 580px;
+	position: relative;
+	overflow: hidden;
+}
+
+#slide ul {
+	width: 400%;
+	height: 100%;
+	transition: 1s;
+}
+
+#slide ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slide li {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+#slide li:nth-child(1) {
+	background: #faa;
+}
+
+#slide li:nth-child(2) {
+	background: #ffa;
+}
+
+#slide li:nth-child(3) {
+	background: #faF;
+}
+
+#slide li:nth-child(4) {
+	background: #aaf;
+}
+
+#slide input {
+	display: none;
+}
+
+#slide label {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #666;
+	background: #fff;
+	transition: 0.3s;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#slide .pos {
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#pos1:checked ~ul{
+	margin-left: 0%;
+}
+
+#pos2:checked ~ul{
+	margin-left: -100%;
+}
+
+#pos3:checked ~ul{
+	margin-left: -200%;
+}
+
+#pos4:checked ~ul{
+	margin-left: -300%;
+}
+
+#pos1:checked ~.pos>label:nth-child(1) {
+	background: #666;
+}
+
+#pos2:checked ~.pos>label:nth-child(2) {
+	background: #666;
+}
+
+#pos3:checked ~.pos>label:nth-child(3) {
+	background: #666;
+}
+
+#pos4:checked ~.pos>label:nth-child(4) {
+	background: #666;
+}

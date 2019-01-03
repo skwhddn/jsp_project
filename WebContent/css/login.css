@@ -1,0 +1,255 @@
+.green_window {
+	display: inline-block;
+	width: 220px;
+	height: 34px;
+	border: 3px solid #8080ff;
+	background: white;
+	margin-left: 50px;
+}
+
+.input_text {
+	width: 212px;
+	height: 40px;
+	margin: 0px 0 0 -10px;
+	border: 2;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+}
+
+.sch_smit {
+	width: 54px;
+	height: 40px;
+	margin: 0;
+	border: 0;
+	vertical-align: top;
+	background: #8080ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.sch_smit:hover {
+	background: #56C82C;
+}
+
+header {
+	font-size: 15px;
+	float: right;
+	position: fixed;
+}
+
+header .gnb {
+	width: 0%;
+	background-color: white;
+	text-align: right;
+}
+
+header .gnb ul {
+	overflow: hidden;
+	width: 2000px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 130px 0 1950px;
+	font-style: italic; /* 기울임 */
+	font-weight: bold; /* 굵기 : 굵게 */
+	padding: 10px;
+}
+
+header li {
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+	font-size: .9em;
+}
+
+header a {
+	color: #white;
+	text-decoration: none;
+}
+
+header .lnb {
+	overflow: hidden;
+	width: 100%;
+	padding: 5px;
+	text-align: center; /* 가운데 정렬 */
+	margin-left: 280px;
+}
+
+hr {
+	margin: 50px;
+	border-bottom: 2px solid #000000;
+}
+
+header .lnb ul {
+	width: 35%;
+	margin: 0 auto;
+	font-weight: bold; /* 굵기 : 굵게 */
+}
+
+header .lnb li {
+	margin: 5px;
+	line-height: 25px;
+}
+
+header .lnb a {
+	color: #282828;
+	font-size: 1.1em;
+	padding: 10px 30px;
+}
+
+header .bi h6 {
+	font-size: 60px;
+	padding-top: 30px; /* 여백 */
+	font-weight: bold; /* 굵기 : 굵게 */
+	text-align: center; /* 가운데 정렬 */
+}
+
+.sidebar ul {
+	list-style: none;
+	color: #ffffff;
+	font-size: 15px;
+	position: fixed;
+	top: 0;
+	left: 50px;
+	width: 221px;
+	padding: 10px 54px;
+	z-index: 100;
+	background-color: #caffff;
+	font-weight: bold;
+	color: #000000;
+}
+
+#qn {
+	font-size: 20px;
+}
+
+.sidebar ul {
+	list-style: none;
+	text-decoration: none;
+}
+.sch_smit {
+	width: 54px;
+	height: 40px;
+	margin: 0;
+	border: 0;
+	vertical-align: top;
+	background: #8080ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+	float: right;
+}
+ul {
+	list-style-type: none; /* 불릿 없앰 */
+}
+
+ul li {
+	margin-bottom: 10px; /*li 항목들간의 간격*/
+}
+
+label {
+	font-weight: bold;
+	font-seiz: 20px;
+	width: 140px;
+}
+input {
+	height: 50px;
+	font-size: 15px;
+	margin: 7px 0 7px 10px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+li {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sb input {
+	margin-left: 215px;
+}
+
+.h hr {
+	margin-top: 80px;
+}
+table {
+	border: 2px #c4c4ff;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	font-size: 30px;
+	width: 650px;
+}
+.radio {
+	margin : 10px 10px 10px 10px;
+	width : 20px; 
+	height: 17px;
+}
+.input {
+	background-color: #ffffff;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+th {
+	background-color: #FFFFFF;
+	color: #9b9bff;
+	font-size: 18px;
+	border: 1px solid #c4c4ff;
+	border-radius: 4px;
+	margin: 0px;
+	padding: 3px;
+	height: 30px;
+	width: 100px;
+}
+
+td {
+	background-color: #ffffff;
+	color: #CC3D3D;
+	font-size: 20px;
+	border: 1px solid #c4c4ff;
+	border-radius: 4px;
+	margin: 0px;
+	padding: 3px;
+	height: 30px;
+	width: 250px;
+}
+center {
+	color: #CC3D3D;
+	font-size: 1.1em;
+}
+.button {
+	background-color: #FFFFFF;
+}
+.Hi {
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+}
+.inputButtono {
+	background-color: #ddddff;
+	width:110px;
+	font-size : 20px;
+	Border-Radius : 6px;
+	Border-size : 1px;
+	Vertical-Position : 1px;
+}
+.inputButton {
+	background-color: #ddddff;
+	width:150px;
+	font-size : 20px;
+	Border-Radius : 6px;
+	Border-size : 1px;
+	Vertical-Position : 1px;
+}
+.oo {
+	margin-top: 50px;
+	width:2000px;
+	height: 500px;
+}
+

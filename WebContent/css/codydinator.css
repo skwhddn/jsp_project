@@ -1,0 +1,162 @@
+@charset "UTF-8";
+.green_window {
+	display: inline-block;
+	width: 366px; height: 34px;
+	border: 3px solid #8080ff;
+	background: white;
+}
+.input_text {
+	width: 348px; height: 21px;
+	margin: 6px 0 0 9px;
+	border: 0;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+}
+.sch_smit {
+	width: 54px; height: 40px;
+	margin: 0; border: 0;
+	vertical-align: top;
+	background: #8080ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+}
+.sch_smit:hover {
+	background: #56C82C;
+}
+header {
+	font-size: 25px;
+}
+
+header .gnb {
+	width: 100%;
+	background-color: white;
+	margin-left: 100px;
+}
+
+header .gnb img {
+	text-align: center;
+}
+
+header .gnb ul {
+	overflow: hidden;
+	width: 45%;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-style: italic; /* 기울임 */
+	font-weight: bold; /* 굵기 : 굵게 */
+	padding: 10px;
+}
+header .lnb {
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 3px solid #000000;
+	padding: 5px;
+	text-align: center; /* 가운데 정렬 */
+	margin-left:40px;
+}
+
+header .lnb ul {
+	width: 37%;
+	margin : 0 auto;
+	font-weight: bold; /* 굵기 : 굵게 */
+	
+}
+
+header .lnb li {
+	margin: 5px;
+	line-height: 25px;
+}
+
+header .lnb a {
+	color: #282828;
+	font-size: 1.1em;
+	padding: 10px 30px;
+}
+
+
+header li {
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+	font-size: .9em;
+}
+
+header a {
+	color: #white;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 30px; /* 폰트 사이즈 : 30 */
+	padding-top: 30px; /* 여백 */
+	text-align: center; /* 가운데 정렬 */
+	color: #000000; /* 폰트색상 : 검정 */
+	font-weight: bold; /* 굵기 : 굵게 */
+}
+
+#content {
+	width: 1900px;
+	margin: 0 auto;
+}
+
+#content .section2 div {
+	margin-top: 3px;
+	width: 1900px;
+	height: 620px;
+	line-height: 400px;
+	text-align: center;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+#content .hit_product {
+	overflow: hidden;
+}
+
+#content .hit_product ul li {
+	list-style: none;
+	float: left;
+	margin: 0 6px 0 0; /* 위 오른쪽 아래 왼쪽 */
+	width: 440px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+#content .hit_product ul li:first-child {
+	margin-left: 10px;
+}
+
+footer {
+	width: 1900px;
+	height: 310px;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+
+footer div {
+	float: left;
+	height: 240px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+footer div:first-child {
+	width: 480px;
+}
+
+footer div:nth-child(2) {
+	width: 480px;
+}
+
+footer div:nth-child(3) {
+	width: 500px;
+}
+
+footer div:last-child {
+	margin: 10px auto 0;
+}

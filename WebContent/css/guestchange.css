@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+.green_window {
+	display: inline-block;
+	width: 366px;
+	height: 34px;
+	border: 3px solid #8080ff;
+	background: white;
+	float: right;
+}
+
+.input_text {
+	width: 348px;
+	height: 21px;
+	margin: 6px 0 0 9px;
+	border: 0;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+}
+
+.sch_smit {
+	width: 54px;
+	height: 40px;
+	margin: 0;
+	border: 0;
+	vertical-align: top;
+	background: #8080ff;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+	float: right;
+}
+
+.sch_smit:hover {
+	background: #56C82C;
+}
+
+ul {
+	list-style-type: none; /* 불릿 없앰 */
+}
+
+ul li {
+	margin-bottom: 10px; /*li 항목들간의 간격*/
+}
+
+fieldset {
+	margin: 10px 30px; /* 상하여백 : 15px 좌우여백: 10px */
+	max-width: 500px; /* 최대 폭*/
+	display: block;
+	margin: 0 auto;
+}
+
+label {
+	font-weight: bold;
+	font-seiz: 20px;
+	width: 140px;
+}
+
+fieldset legend {
+	font-size: 20px; /* 글자크기*/
+	font-weight: bold; /* 굵기 : 굵게 */
+	color: red; /* 글자색 */
+	text-align: center;
+}
+
+input {
+	height: 50px;
+	font-size: 15px;
+	margin: 15px auto 0;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+li {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.sb input {
+	display: inline-block;
+	margin: 0 0 0 110px;
+}
+
+header .gnb {
+	width: 100%;
+	background-color: white;
+}
+
+header .gnb img {
+	text-align: center;
+}
+
+header .gnb ul {
+	overflow: hidden;
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-style: italic; /* 기울임 */
+	font-weight: bold; /* 굵기 : 굵게 */
+	padding: 10px;
+}
+
+header li {
+	float: left;
+	list-style: none;
+	margin-left: 50px;
+	font-size: .9em;
+}
+
+header a {
+	color: #white;
+	text-decoration: none;
+}
+
+footer {
+	width: 1900px;
+	height: 310px;
+	margin: 20px auto 0;
+	overflow: hidden;
+}
+
+footer div {
+	float: left;
+	height: 240px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+footer div:first-child {
+	width: 480px;
+}
+
+footer div:nth-child(2) {
+	width: 480px;
+}
+
+footer div:nth-child(3) {
+	width: 500px;
+}
+
+footer div:last-child {
+	margin: 10px auto 0;
+}
+
+.h hr {
+	margin-top: 80px;
+}
